@@ -5,15 +5,15 @@ let sass = require ('gulp-sass')
 
 // SASS task
 gulp.task('sass', function () {
-	return gulp.src('./scss/styles.scss')
+	return gulp.src('./scss/style.scss')
 		.pipe(sass())
-		.pipe(rename('styles.css'))
+		.pipe(rename('style.css'))
 		.pipe(gulp.dest('./css/'));
 });
 
 // Define a new task minify-css:
 gulp.task('minify-css', () => {
-  return gulp.src('css/styles.css')
+  return gulp.src('css/style.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./css/'));
