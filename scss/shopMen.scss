@@ -1,0 +1,43 @@
+.shopMenContainer {
+	margin: 0 auto;
+	background-color: white;
+	font-family: "Montserrat", sans-serif;
+	max-width: 900px;
+	box-sizing: border-box;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	width: 180px;
+	height: 350px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+}
+
+.clothing {
+	object-fit: cover;
+	background-color: #d8d8d8 !important;
+	width: 100%;
+}
+
+.card-slate {
+	text-align: start;
+}
+
+.color-circle {
+	height: 15px;
+	width: 15px;
+
+	border-radius: 50%;
+	display: inline-block;
+}

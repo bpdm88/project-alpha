@@ -102,7 +102,7 @@ a {
   text-decoration: none;
   font-family: Montserrat;
   color: black;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 .logo {
   font-weight: bold;
@@ -167,7 +167,8 @@ footer {
 .help {
   margin-top: 50px; }
 
-footer, a {
+footer,
+a {
   display: block;
   color: black;
   font-size: 26px; }
@@ -198,3 +199,34 @@ body {
     font-size: 21px;
     width: 40%;
     text-align: start; }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: center; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 350px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 30px; }
+
+.clothing {
+  object-fit: cover;
+  background-color: #d8d8d8;
+  width: 100%; }
+
+.card-slate {
+  text-align: start; }
+
+.color-circle {
+  height: 15px;
+  width: 15px;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block; }
