@@ -1,7 +1,8 @@
-section {
-	padding: $padding;
-	background-color: $sand;
-	color: $green;
+#manifesto {
+    background-color: $sand;
+    color: $green;
+    text-align: center;
+    padding: $padding;
 }
 
 .manifesto__heading {
@@ -10,11 +11,11 @@ section {
 }
 
 .manifesto__container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	width: 80vw;
-	margin: 90px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 90px auto;
 }
 
 .manifesto__group {
@@ -55,4 +56,8 @@ section {
 
 .manifesto__group:nth-child(3n) {
 	justify-content: flex-end;
+}
+
+.text--left {
+    text-align: left;
 }
