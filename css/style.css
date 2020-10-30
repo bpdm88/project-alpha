@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-section {
-  padding: 40px 30px;
+section .manifesto {
+  padding: 40spx 30px;
   background-color: #fffaec;
-  color: #285246; }
+  color: #285246;
+  text-align: center; }
 
 .manifesto__heading {
   margin-bottom: 90px;
-  margin-top: 90px; }
+  margin-top: 90px;
+  text-align: center; }
 
 .manifesto__container {
   display: flex;
@@ -58,7 +60,8 @@ html {
 
 .manifesto h4 {
   font-weight: 400;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-align: center; }
 
 .text--black {
   color: black; }
@@ -66,3 +69,72 @@ html {
 .manifesto h6 {
   font-weight: 400;
   font-size: 1.1em; }
+
+@font-face {
+  font-family: Montserrat, sans-serif;
+  src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap); }
+
+.wrapper {
+  max-width: 900px;
+  margin: auto; }
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8d8d8; }
+
+nav ul {
+  display: flex;
+  align-items: center; }
+
+ul li {
+  display: flex;
+  align-items: center;
+  padding: 15px; }
+
+a {
+  text-decoration: none;
+  font-family: Montserrat;
+  color: black;
+  font-family: 'Montserrat', sans-serif; }
+
+.logo {
+  font-weight: bold;
+  font-size: 30px; }
+
+.logo2 {
+  font-size: 24px;
+  font-style: italic; }
+
+body {
+  margin: 0 auto;
+  background-color: #d8d8d8;
+  font-family: "Montserrat", sans-serif;
+  max-width: 900px;
+  box-sizing: border-box; }
+
+.intro {
+  padding: 100px 30px 40px 30px; }
+  .intro h1 {
+    font-size: 103px;
+    font-weight: 700;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #d8d8d8; }
+  .intro .intro-links {
+    display: flex;
+    position: relative; }
+    .intro .intro-links .text-links a {
+      text-decoration: none;
+      color: black;
+      font-size: 38px;
+      font-weight: 400;
+      display: block; }
+    .intro .intro-links .arrow-link {
+      list-style: none;
+      width: 50px;
+      height: 85px;
+      position: absolute;
+      top: -150px;
+      right: 10px; }
