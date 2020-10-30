@@ -1,0 +1,44 @@
+.footerWrapper {
+    display: flex;
+}
+
+.beGreen {
+    width: 50%;
+    background-color: $green;
+    padding: $padding;
+    text-align: center;
+    color: $sand;
+}
+
+.graphic {
+    background-color: $second-grey;
+    width: 50%;
+    padding: $padding;
+}
+
+footer {
+    padding: $padding;
+    background-color: $card-grey;
+    font-family: $main-font;
+
+}
+
+.help {
+    margin-top: 50px;
+}
+
+footer, a {
+    display: block;
+    color: black;
+    font-size: 26px;
+}
+
+.help p {
+    text-align: start;
+    color: black;
+    font-size: 12px;
+}
+
+.contact {
+    font-weight: bold;
+}
