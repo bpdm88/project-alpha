@@ -1,20 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-section .manifesto {
-  padding: 40spx 30px;
+#manifesto {
   background-color: #fffaec;
   color: #285246;
-  text-align: center; }
+  text-align: center;
+  padding: 40px 30px; }
 
 .manifesto__heading {
   margin-bottom: 90px;
-  margin-top: 90px;
-  text-align: center; }
+  margin-top: 90px; }
 
 .manifesto__container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 80vw;
+  max-width: 900px;
   margin: 90px auto; }
 
 .manifesto__group {
@@ -45,6 +44,9 @@ section .manifesto {
 
 .manifesto__group:nth-child(3n) {
   justify-content: flex-end; }
+
+.text--left {
+  text-align: left; }
 
 html {
   font-size: 16px; }

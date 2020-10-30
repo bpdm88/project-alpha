@@ -1,7 +1,8 @@
-section {
-    padding: $padding;
+#manifesto {
     background-color: $sand;
     color: $green;
+    text-align: center;
+    padding: $padding;
 }
 
 .manifesto__heading {
@@ -13,7 +14,7 @@ section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 80vw;
+    max-width: 900px;
     margin: 90px auto;
 }
 
@@ -53,4 +54,8 @@ section {
 
 .manifesto__group:nth-child(3n) {
 justify-content: flex-end;
+}
+
+.text--left {
+    text-align: left;
 }
