@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-@import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import 'variables';
+@import 'manifesto';
+@import 'typography';
 @import "nav";
 @import "section1.scss";
