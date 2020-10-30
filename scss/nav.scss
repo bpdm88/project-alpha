@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Montserrat, sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap)
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8d8d8;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+} 
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Montserrat;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logo2 {
+    font-size: 24px;
+    font-style: italic;
+}

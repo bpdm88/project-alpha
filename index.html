@@ -3,11 +3,50 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Home Page</title>
 		<link rel="stylesheet" href="./css/style.min.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<section class="big-green">
+		<header>
+			<div>
+				<nav>
+					<ul>
+						<li><a href="#">Shop Women</a></li>
+						<li><a href="#">Shop Men</a></li>
+						<li>
+							<a class="logo" href="#"
+								>Organic<span class="logo2">basics</span></a
+							>
+						</li>
+						<li><a href="#">Regular Store</a></li>
+						<li><a href="#">Manifesto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="intro">
+			<h1>Low<br />Impact<br />Website</h1>
+			<div class="intro-links">
+				<div class="text-links">
+					<a href="#">Shop women</a>
+					<a href="#">Shop men</a>
+				</div>
+				<li class="arrow-link">
+					<a href="#">
+						<img
+							src="https://lowimpact.organicbasics.com/_nuxt/50532119a9b183aa4292ca2966964629.svg"
+							alt="Scroll down arrow"
+							class="manifesto__scroll-down"
+						/>
+					</a>
+				</li>
+			</div>
+        </section>
+        <section class="big-green">
 			<p>
 				The internet is dirty. Data transfer requires electricity, which
 				creates carbon emissions — and this leads to climate change. The
@@ -15,5 +54,72 @@
 				comparison to our regular website.
 			</p>
 		</section>
+        <section class="manifesto">
+            <h1 class="manifesto__heading"><span>The</span> low impact <span>manifesto</span></h1>
+            <h4 class="text--black">A low impact website:</h4>
+            <div class="manifesto__container">
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>1. </b><span> Does not load any images before they are actively requested by the user.</h6>
+                            <img src="assets/images/manifesto-01.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>2. </b><span> Minimizes the power consumption on the users device.</h6>
+                            <img src="assets/images/manifesto-02.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>3. </b><span> Adapts to reflect the amount of renewable energy it’s currently running on.</h6>
+                            <img src="assets/images/manifesto-03.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>4. </b><span> Informs the user of the impact of their browsing behavior.</h6>
+                            <img src="assets/images/manifesto-04.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>5. </b><span> Does not make use of videos.</h6>
+                            <img src="assets/images/manifesto-05.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>6. </b><span> Stores data locally on the user’s device to minimize data transfer.</h6>
+                            <img src="assets/images/manifesto-06.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>7. </b><span> Compresses all data to the greatest extent possible.</h6>
+                            <img src="assets/images/manifesto-07.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>8. </b><span> Loads only the most crucial programming scripts, frameworks and cookies.</h6>
+                            <img src="assets/images/manifesto-08.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>9. </b><span> Limits the amount of light emitted by the screen.</h6>
+                            <img src="assets/images/manifesto-09.svg" alt="">
+                    </div>
+                </div>
+                <div class="manifesto__group">
+                    <div class="manifesto__inner">
+                        <h6 class="manifesto__text"><span><b>10. </b><span> Optimizes and limits the use of custom fonts.</h6>
+                            <img src="assets/images/manifesto-10.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
 	</body>
 </html>
