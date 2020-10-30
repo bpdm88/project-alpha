@@ -44,8 +44,7 @@ body {
   box-sizing: border-box; }
 
 .intro {
-  padding: 100px 30px 40px 30px;
-  border: 1px solid yellowgreen; }
+  padding: 100px 30px 40px 30px; }
   .intro h1 {
     font-size: 103px;
     font-weight: 700;
@@ -68,3 +67,39 @@ body {
       position: absolute;
       top: -150px;
       right: 10px; }
+
+.footerWrapper {
+  display: flex; }
+
+.beGreen {
+  width: 50%;
+  background-color: #285246;
+  padding: 40px 30px;
+  text-align: center;
+  color: #fffaec; }
+
+.graphic {
+  background-color: #a1a4a9;
+  width: 50%;
+  padding: 40px 30px; }
+
+footer {
+  padding: 40px 30px;
+  background-color: #e2e2e2;
+  font-family: "Montserrat", sans-serif; }
+
+.help {
+  margin-top: 50px; }
+
+footer, a {
+  display: block;
+  color: black;
+  font-size: 26px; }
+
+.help p {
+  text-align: start;
+  color: black;
+  font-size: 12px; }
+
+.contact {
+  font-weight: bold; }
