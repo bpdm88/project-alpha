@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-@import 'variables';
-@import 'manifesto';
-@import 'typography';
+@import "variables.scss";
+@import "manifesto";
+@import "typography";
 @import "nav";
 @import "section1.scss";
+@import "footer.scss";
+@import "section2.scss";
