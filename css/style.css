@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+section {
+  padding: 40px 30px;
+  background-color: #fffaec;
+  color: #285246; }
+
+.manifesto__heading {
+  margin-bottom: 90px;
+  margin-top: 90px; }
+
+.manifesto__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 90px auto; }
+
+.manifesto__group {
+  width: 100%;
+  display: inline-flex;
+  margin: 20px auto; }
+
+.manifesto__inner {
+  align-items: center;
+  display: flex;
+  flex-direction: row; }
+
+.manifesto__text {
+  max-width: 194px;
+  margin-right: 8%; }
+
+.manifesto__container .manifesto__group:nth-child(2n) .manifesto__inner .manifesto__text {
+  margin-left: 5%; }
+
+.manifesto__container .manifesto__group:nth-child(2n) .manifesto__inner {
+  flex-direction: row-reverse; }
+
+.manifesto__container .manifesto__group:nth-child(3n+2) {
+  justify-content: center; }
+
+.manifesto__container .manifesto__group:nth-child(3n+3) {
+  justify-content: flex-end; }
+
+.manifesto__group:nth-child(3n) {
+  justify-content: flex-end; }
+
+html {
+  font-size: 16px; }
+
+.manifesto__heading {
+  font-weight: 700;
+  font-size: 5em;
+  -webkit-text-stroke: 1px #285246;
+  -webkit-text-fill-color: transparent; }
+
+.manifesto__heading span {
+  -webkit-text-fill-color: #285246; }
+
+.manifesto h4 {
+  font-weight: 400;
+  font-size: 1.5em; }
+
+.text--black {
+  color: black; }
+
+.manifesto h6 {
+  font-weight: 400;
+  font-size: 1.1em; }
