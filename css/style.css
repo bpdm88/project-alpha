@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 section {
-  padding: 40spx 30px;
+  padding: 40px 30px;
   background-color: #fffaec;
   color: #285246; }
 
@@ -142,17 +142,17 @@ body {
 .beGreen {
   width: 50%;
   background-color: #285246;
-  padding: 40spx 30px;
+  padding: 40px 30px;
   text-align: center;
   color: #fffaec; }
 
 .graphic {
   background-color: #a1a4a9;
   width: 50%;
-  padding: 40spx 30px; }
+  padding: 40px 30px; }
 
 footer {
-  padding: 40spx 30px;
+  padding: 40px 30px;
   background-color: #e2e2e2;
   font-family: "Montserrat", sans-serif; }
 
