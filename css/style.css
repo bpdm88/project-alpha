@@ -29,16 +29,19 @@ section {
   max-width: 194px;
   margin-right: 8%; }
 
-.manifesto__container .manifesto__group:nth-child(2n) .manifesto__inner .manifesto__text {
+.manifesto__container
+.manifesto__group:nth-child(2n)
+.manifesto__inner
+.manifesto__text {
   margin-left: 5%; }
 
 .manifesto__container .manifesto__group:nth-child(2n) .manifesto__inner {
   flex-direction: row-reverse; }
 
-.manifesto__container .manifesto__group:nth-child(3n+2) {
+.manifesto__container .manifesto__group:nth-child(3n + 2) {
   justify-content: center; }
 
-.manifesto__container .manifesto__group:nth-child(3n+3) {
+.manifesto__container .manifesto__group:nth-child(3n + 3) {
   justify-content: flex-end; }
 
 .manifesto__group:nth-child(3n) {
@@ -135,3 +138,22 @@ body {
       position: absolute;
       top: -150px;
       right: 10px; }
+
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  max-width: 900px;
+  background-color: #d8d8d8; }
+
+.big-green {
+  background-color: #285256;
+  color: #fff;
+  text-align: center;
+  padding: 40px 30px 40px 30px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end; }
+  .big-green p {
+    font-size: 21px;
+    width: 40%;
+    text-align: start; }
